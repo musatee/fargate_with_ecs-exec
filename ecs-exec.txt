@@ -1,0 +1,5 @@
+command: 
+
+aws ecs execute-command   --region <region name>   --cluster <cluster name>   --task <task id>   --container <container name>   --command "/bin/bash"   --interactive 
+
+
